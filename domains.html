@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domains — ReliDomains</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-page">
+<aside class="sidebar">
+<a href="index.html" class="logo">Reli<span>Domains</span></a>
+<nav>
+<a href="dashboard.html">Dashboard</a>
+<a href="projects.html">Projects</a>
+<a class="active" href="domains.html">Domains</a>
+<a href="settings.html">Settings</a>
+</nav>
+<div class="sidebar-bottom">
+<a href="index.html">Sign out</a>
+</div>
+</aside>
 
+<main class="dashboard">
+<header class="dashboard-header">
+<div>
+<p class="eyebrow">DOMAINS</p>
+<h1>Domains</h1>
+</div>
+<button class="button primary" onclick="addDomain()">+ Add domain</button>
+</header>
+
+<div class="domain-empty">
+<div class="empty-icon">◎</div>
+<h2>No domains connected</h2>
+<p>Add a custom domain and connect it to one of your GitHub Pages projects.</p>
+<button class="button primary" onclick="addDomain()">Add your first domain</button>
+</div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
